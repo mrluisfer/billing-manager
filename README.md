@@ -1,41 +1,41 @@
-## Oppenheimer (WebSite)
+# ⚠️ This repository is no longer maintained
 
-### Description
+> **billing-manager** has been deprecated and is archived for historical reference only.
+> No new features, bug fixes, or security patches will be applied.
 
-A website to manage your personal finances and subscriptions
-The name is a reference to Robert Oppenheimer, but its just a key project name, nothing more.
+---
 
-### Tech Stack
+## 🦋 The project has moved — meet Monfly
 
-- Supabase -> https://supabase.io/docs/guides/with-react
-- Nextjs -> https://nextjs.org/docs/getting-started
-- Tailwindcss -> https://tailwindcss.com/docs/guides/nextjs
-- Shadcn -> https://ui.shadcn.com/
+This project evolved into **Monfly**, a full-stack personal finance dashboard rebuilt from the ground up with a modern stack and a much richer feature set.
 
-## Commands
+### 👉 [github.com/mrluisfer/monfly](https://github.com/mrluisfer/monfly)
 
-- Install dependencies
+### 🌐 [monfly.vercel.app](https://monfly.vercel.app)
 
-```bash
-yarn install # or npm install
-```
+---
 
-- Run the app
+## What changed?
 
-```bash
-yarn dev # or npm run dev
-```
+| | billing-manager (legacy) | 🦋 Monfly (new) |
+|---|---|---|
+| Framework | Next.js 13 | TanStack Start + React 19 |
+| Database | Supabase | Prisma + PostgreSQL / SQLite |
+| Auth | Supabase Auth | bcrypt + server-side sessions |
+| UI | Tailwind + shadcn | Tailwind v4 + Radix UI |
+| State | — | TanStack Query |
+| Charts | — | Recharts |
+| Testing | — | Jest + React Testing Library |
+| Status | ❌ Archived | ✅ Active |
 
-- Lint the code
+---
 
-```bash
-yarn lint # or npm run lint
-```
+## Why the move?
 
-### Environment Variables
+billing-manager started as a small side project ("Oppenheimer") to track subscriptions and personal finances. Monfly is its spiritual successor — a complete rewrite designed to be faster, more scalable, fully tested, and open to contributions.
 
-_SUPABASE_URL_ `string`
+---
 
-_SUPABASE_KEY_ `string`
-
-Tables:
+<p align="center">
+  If you starred or forked this repo, consider checking out <a href="https://github.com/mrluisfer/monfly"><strong>Monfly</strong></a> — it's everything this project wanted to be. 🦋
+</p>
